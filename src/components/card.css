@@ -1,0 +1,66 @@
+.card {
+	height: 354px;
+	width: 250px;
+	background-color:black;
+	border-radius:0.25rem;
+	margin: 1.5rem;
+	padding: 0.5rem;
+	position:relative;
+}
+
+.poster {
+	height: 337px;
+	width: 100%;
+	object-fit:cover;
+}
+
+.shader {
+	display: flex;
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content:center;
+	height: 354px;
+	width: 250px;
+	padding: 0.5rem;
+	border-radius:0.25rem;
+
+	position: absolute;
+	top: 0%;
+	left:0%;
+	z-index: 1;
+	opacity: 1;
+	background-color:black;
+	background: linear-gradient(180deg, rgba(0,0,0,0.4), rgba(0,0,0,1));
+	box-shadow: 0 0 5px var(--accent-1);
+}
+
+.shader:hover {
+	opacity: 0;
+	text-shadow: 5px 5px 10px var(--accent-1);
+	transition:var(--trans-long);
+	box-shadow: 0 0 70px var(--accent-1);
+}
+
+.movieInfo {
+	display:flex;
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content:center;
+	color: white;
+}
+
+.movieName {
+	color: white;
+	margin: 0;
+	width:100%;
+	text-align:center;
+	text-shadow: 5px 5px 10px var(--accent-1)
+}
+
+.movieYear {
+	width:100%;
+	text-align:center;
+	color: white;
+	text-shadow: 5px 5px 10px var(--accent-1)
+}
+
