@@ -10,3 +10,5 @@ This is how to site looks:
 ![demo1](https://github.com/darkhorse1925/posterbay/blob/master/demo/demo_pic1.png)
 
 ![demo2](https://github.com/darkhorse1925/posterbay/blob/master/demo/demo_pic2.png)
+
+The site is fully functional and mobile responsive
